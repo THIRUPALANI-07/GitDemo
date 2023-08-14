@@ -1,0 +1,65 @@
+09:43:02.068 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.11.0
+09:43:02.083 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+09:43:02.786 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\Admin\Selenium-training\CrossBrowserTesting\browserstack.yml
+09:43:02.931 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+09:43:02.946 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+09:43:03.663 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+09:43:08.157 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+09:43:36.435 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+09:44:09.379 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/45ec80bc2d007975b496fbcd661d48c7fda168d5
+09:44:09.379 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+09:44:12.381 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+09:48:25.526 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.11.0
+09:48:25.533 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+09:48:26.138 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\Admin\Selenium-training\CrossBrowserTesting\browserstack.yml
+09:48:26.294 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+09:48:26.311 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+09:48:26.950 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+09:48:31.532 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+09:48:42.813 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+09:49:03.223 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/7235f2e8429952ffa3ddd18a862abe6a19b2775e
+09:49:03.223 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+09:49:07.244 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+09:50:09.356 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.11.0
+09:50:09.366 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+09:50:09.923 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\Admin\Selenium-training\CrossBrowserTesting\browserstack.yml
+09:50:10.045 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+09:50:10.061 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+09:50:10.752 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+09:50:15.086 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+09:50:27.147 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:00:08.731 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.11.0
+10:00:08.744 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+10:00:09.392 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\Admin\Selenium-training\CrossBrowserTesting\browserstack.yml
+10:00:09.569 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+10:00:09.596 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to false
+10:00:10.339 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+10:00:14.797 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:00:27.201 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:00:42.513 [TestGoogle-0@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"rahulshettyacademy.TestDemo2-checkTitleGoogle"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:3001}, networkConnectionEnabled: false, optimalHubUrl: hub-aps.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 21960145c7f856bf4d6dd8ef6ac...}
+10:00:42.516 [checkTitleGoogle@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:3001}, networkConnectionEnabled: false, optimalHubUrl: hub-aps.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 21960145c7f856bf4d6dd8ef6ac...}
+10:00:53.493 [TestGoogle-1@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"rahulshettyacademy.TestDemo2-checkTitleGoogle"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:1394}, networkConnectionEnabled: false, optimalHubUrl: hub-aps.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: bd3045b5f297fb7e10d6cd9b58d...}
+10:00:53.496 [checkTitleGoogle@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:1394}, networkConnectionEnabled: false, optimalHubUrl: hub-aps.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: bd3045b5f297fb7e10d6cd9b58d...}
+10:01:34.542 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/c099004ffe0ab7ea9f009b247a1b8c85fc6830bd
+10:01:34.542 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:01:38.295 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.

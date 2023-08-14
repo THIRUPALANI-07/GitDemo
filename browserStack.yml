@@ -1,0 +1,20 @@
+userName: thirupalanim_86erzh
+accessKey: UyXYPYhryCLaEwMUWHCw
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: 103.0
+  - os: Windows
+    osVersion: 10
+    browserName: Firefox
+    browserVersion: 102.0
+parallelsPerPlatform: 1
+browserstackLocal: true
+buildName: bstack-demo
+buildIdentifier: ${BUILD_NUMBER}
+projectName: BrowserStack Sample
+testObservability: false
+networkLogs: false
+consoleLogs: errors
